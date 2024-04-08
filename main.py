@@ -3,7 +3,7 @@ def search(list,n):
     i = 0
     while i<len(list):
         if list[i]==n:
-            globals()["pos"]=1
+            globals()["pos"]=i
             return True
         i = i + 1
     return False
