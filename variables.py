@@ -1,14 +1,11 @@
-x = 2
-y = 2
-print(x+y)
+num = range(1,1000)
 
-name = 'Youtube'
-print(name[0:2])  #fetch the value in the name
-print(name[-4]) #reverse order of the variable
+def prime(num):
+    for i in range(2,num):
+        if (num%i)==0:
+            return False
+        else:
+            return True
 
-a = name + 'rock' #merging the variable
-print(a)
-
-myname='Aravind' #length of the variable
-print(len(myname))
-
+primes = (list(filter(prime,num)))
+print(primes)
