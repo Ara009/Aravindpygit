@@ -11,3 +11,4 @@ print(a)
 
 myname='Aravind' #length of the variable
 print(len(myname))
+
