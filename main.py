@@ -1,17 +1,13 @@
-pos = -1
-def search(list,n):
-    i = 0
-    while i<len(list):
-        if list[i]==n:
-            globals()["pos"]=i
-            return True
-        i = i + 1
-    return False
-n = 5
-list = [5,8,4,6,9,2]
+x = 2
+y = 2
+print(x+y)
 
-if search(list,n):
-    print("found at",pos+1)
-else:
-    print("not found")
+name = 'Youtube'
+print(name[0:2])  #fetch the value in the name
+print(name[-4]) #reverse order of the variable
 
+a = name + 'rock' #merging the variable
+print(a)
+
+myname='Aravind' #length of the variable
+print(len(myname))
